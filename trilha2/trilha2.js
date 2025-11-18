@@ -47,7 +47,7 @@ class Produto {
 
 class Temperatura {
     constructor(valor) {
-        this.valor = valor; // valor em Celsius
+        this.valor = valor; 
     }
 
     paraFahrenheit() {

@@ -116,8 +116,8 @@ class Animal {
 
 class Leao extends Animal {
     comer() {
-        this.alterarEnergia(-20); // gasta energia para caçar
-        this.alterarEnergia(+30); // recupera comendo a presa
+        this.alterarEnergia(-20); 
+        this.alterarEnergia(+30); 
     }
 }
 
@@ -153,13 +153,13 @@ abstract class Funcionario {
 
 class Gerente extends Funcionario {
     calcularBonus(): number {
-        return this.getSalario() * 0.10; // 10%
+        return this.getSalario() * 0.10; 
     }
 }
 
 class Operario extends Funcionario {
     calcularBonus(): number {
-        return this.getSalario() * 0.05; // 5%
+        return this.getSalario() * 0.05; 
     }
 }
 

@@ -1,4 +1,3 @@
-// Renomeado para evitar colisão com possível classe Produto existente no projeto
 interface IProduto {
 	id: number;
 	nome: string;
